@@ -1,0 +1,66 @@
+/* estilos da pagina index.html*/
+.center{
+  text-align:center;
+ 
+}
+
+.justify{
+  text-align: justify;
+}
+
+.conteiner{
+  display:flex;
+  /*flex-flow: row wrap; quebra a linha para baixo*/
+  flex-flow: row;/*deixa lado a lado*/
+  justify-content:center;/*uso para alinhar no centro ou no começo ou fim*/
+  align-items: center;/*alinha tudo na mesma direção*/
+  
+
+}
+
+#menu li{
+  display: inline;
+  padding: 20px;
+}
+
+
+#menu li a {
+  text-decoration: none;
+  color: black;
+  font-size: 25px; /* tamanho da fonte*/
+}
+
+#menu li a:hover{ /*para ter um efeito quando o mouse esta em ciam */
+  color: pink;
+}
+
+.p-30{
+  padding: 40px;
+}
+
+.border50{
+  border-radius: 80%;
+}
+
+.wh-300{
+
+  width: 350px;
+  height: 350px;
+}
+
+.tm-social{
+  width: 50px;
+  padding:50px ;
+}
+
+.mb-50{
+  margin-bottom: 30px;
+
+}
+
+
+/*estilos da pagina contato.html*/
+
+.ml-50{
+  margin-left: 50px;
+}
